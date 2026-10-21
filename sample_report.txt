@@ -1,0 +1,42 @@
+=== Forensic Acquisition Report ===
+Case ID : CASE001
+Examiner: AMAN
+Source : /dev/mapper/baddisk
+Started : Wed Oct 21 06:14:31 PM UTC 2026
+[1] Source set read-only
+[2] Pass 1: ddrescue -n
+[3] Pass 2: ddrecue -d -r3
+[4] Rescue statistics:
+
+   current pos:   76807 kB,  current status: finished
+mapfile extent:  209715 kB,  in      5 area(s)
+
+     non-tried:        0 B,  in      0 area(s)  (  0%)
+       rescued:  209698 kB,  in      3 area(s)  ( 99.99%)
+   non-trimmed:        0 B,  in      0 area(s)  (  0%)
+   non-scraped:        0 B,  in      0 area(s)  (  0%)
+    bad-sector:    16384 B,  in      2 area(s)  (  0.01%)
+[5] SHA-256 of image:
+ccc1c0440e2817626b7e6613f2f12bf57d1766a54b486b3c80e7e4435f9f698c  case_CASE001/image.img
+[6] Filesystem check:
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: Ext4
+Volume Name: 
+Volume ID: ad3b6b442bb27884924c02187b3546ee
+
+Last Written at: 2026-10-20 12:58:01 (UTC)
+Last Checked at: 2026-10-20 12:29:31 (UTC)
+
+Last Mounted at: 2026-10-20 12:50:01 (UTC)
+Unmounted properly
+Last mounted on: /home/aman/ddrescue-project/mnt
+
+Source OS: Linux
+Dynamic Structure
+Compat Features: Journal, Ext Attributes, Resize Inode, Dir Index
+InCompat Features: Filetype, Extents, 64bit, Flexible Block Groups, 
+Read Only Compat Features: Sparse Super, Large File, Huge File, Extra Inode Size
+
+Journal ID: 00
+Finished: Wed Oct 21 06:14:32 PM UTC 2026

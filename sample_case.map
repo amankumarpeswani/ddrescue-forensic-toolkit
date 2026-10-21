@@ -1,0 +1,13 @@
+# Mapfile. Created by GNU ddrescue version 1.27
+# Command line: ddrescue -d -r3 /dev/mapper/baddisk case_CASE001/image.img case_CASE001/case.map
+# Start time:   2026-10-21 18:14:32
+# Current time: 2026-10-21 18:14:32
+# Finished
+# current_pos  current_status  current_pass
+0x0493FE00     +               3
+#      pos        size  status
+0x00000000  0x009C4000  +
+0x009C4000  0x00002000  -
+0x009C6000  0x03F78000  +
+0x0493E000  0x00002000  -
+0x04940000  0x07EC0000  +
